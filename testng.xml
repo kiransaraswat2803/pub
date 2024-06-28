@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+  <test name="MyTest">
+    <classes>
+      <class name="publisher.publisher.Login">
+        <methods>
+          <!-- Specify individual test methods to include -->
+          <include name="hello" />
+          <include name="publishing" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
+
